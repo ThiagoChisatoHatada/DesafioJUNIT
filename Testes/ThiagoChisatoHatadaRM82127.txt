@@ -42,4 +42,4 @@ java.lang.Error: Unresolved compilation problems:
 Linhas alteradas
  if (respostaPrisioneiroA == "Culpado") 
           if (respostaPrisioneiroB == "Culpado") 
-                if (respostaPrisioneiroB == "Culpado")
+                if (respostaPrisioneiroB == "Culpado"
