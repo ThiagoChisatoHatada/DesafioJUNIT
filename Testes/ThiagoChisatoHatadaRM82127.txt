@@ -24,3 +24,11 @@ public class JulgamentoPrisioneiroTeste extends TestCase{
 	}
 
 }
+
+Teste01
+java.lang.Error: Unresolved compilation problems: 
+	The method calculaPena(Resposta, Resposta) from the type JulgamentoPrisioneiro refers to the missing type Resposta
+	The method calculaPena(Resposta, Resposta) from the type JulgamentoPrisioneiro refers to the missing type Resposta
+
+
+ public int calculaPena(String respostaPrisioneiroA, String respostaPrisioneiroB) 
