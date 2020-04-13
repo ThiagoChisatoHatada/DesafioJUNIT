@@ -1,0 +1,26 @@
+Thiago Chisato Hatada 
+RM: 82127
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import junit.framework.TestCase;
+
+public class JulgamentoPrisioneiroTeste extends TestCase{
+
+	@Test
+	public void testJulgamento() {
+		String respostaPrisioneiroA ="Culpado";
+		String respostaPrisioneiroB ="123445";
+		
+		JulgamentoPrisioneiro jp = new JulgamentoPrisioneiro();
+		
+		int penaSuspeitoA = jp.calculaPena(respostaPrisioneiroA, respostaPrisioneiroB);
+		int penaSuspeitoB = jp.calculaPena(respostaPrisioneiroA, respostaPrisioneiroB);
+	
+		assertEquals(10, penaSuspeitoA);
+		assertEquals(10, penaSuspeitoB);
+	}
+
+}
