@@ -30,5 +30,16 @@ java.lang.Error: Unresolved compilation problems:
 	The method calculaPena(Resposta, Resposta) from the type JulgamentoPrisioneiro refers to the missing type Resposta
 	The method calculaPena(Resposta, Resposta) from the type JulgamentoPrisioneiro refers to the missing type Resposta
 
-
+Linhas alteradas
  public int calculaPena(String respostaPrisioneiroA, String respostaPrisioneiroB) 
+
+Teste02
+java.lang.Error: Unresolved compilation problems: 
+	Resposta cannot be resolved to a variable
+	Resposta cannot be resolved to a variable
+	Resposta cannot be resolved to a variable
+
+Linhas alteradas
+ if (respostaPrisioneiroA == "Culpado") 
+          if (respostaPrisioneiroB == "Culpado") 
+                if (respostaPrisioneiroB == "Culpado"
