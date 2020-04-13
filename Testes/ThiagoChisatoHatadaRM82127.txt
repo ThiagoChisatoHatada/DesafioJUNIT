@@ -53,3 +53,5 @@ private int PENA_INOCENCIA = 0;
    private int PENA_CONDENACAO_INDIVIDUAL = 10;
    private int PENA_CONDENACAO_CUMPLICES = 1;
 
+a versão final: a JUNIT final e a versão da Classe de Objetos corrigida.
+
